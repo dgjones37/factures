@@ -18,7 +18,7 @@ group :assets do
 end
 
 group :test do
-  gem 'jasmine'
+  gem 'jasmine-rails'
   gem 'action_mailer_cache_delivery'
   gem 'email_spec'
   gem 'capybara'
