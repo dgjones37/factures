@@ -6,14 +6,13 @@ describe "When I visit the home page of the website" do
 	
 	before do
 		visit root_path
-		page!
 	end
 	
 	
 	context "as a user that has not yet logged in" do
 		
 		it "I can see a login form" do
-			should have_selector('form[name = "login"]')
+			should have_selector('form[id="new_user"]')
 		end	
 		
 		it "and I can also see a register now button" do
