@@ -1,5 +1,5 @@
 <% if current_user %>
-	Welcome <%= @user.name %>
+	<div>Welcome to the home page</div>
 <% else %>
 	<%= render 'devise/sessions/form' %>
 	<%= link_to 'Register', new_user_registration_path %>
