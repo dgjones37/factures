@@ -1,6 +1,7 @@
 <% if current_user %>
 	Welcome <%= @user.name %>
 <% else %>
-	<%= render 'devise/session/form' %>
+	
+	<%= render 'devise/sessions/form' %>
 	<%= link_to 'Register' %>
 <% end %>
